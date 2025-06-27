@@ -50,4 +50,5 @@ def index():
     return render_template("index.html", generated=generated, seed=seed_text, temperature=temperature, length=length)
 
 if __name__ == "__main__":
-    app.run()
+    port = int(os.environ.get("PORT", 5000))  # Railway provides this
+    app.run(host="0.0.0.0", port=port, debug=False)
