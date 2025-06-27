@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shakespeare Text Generator</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>🧙 Shakespeare Text Generator</h2>
+    <form method="POST">
+        <label>Seed Text:</label><br>
+        <input type="text" name="seed" value="{{ seed }}" placeholder="Type your opening line here"><br>
+
+        <label>Temperature (Creativity):</label><br>
+        <input type="range" name="temperature" min="0.2" max="1.5" step="0.1" value="{{ temperature }}"><br>
+
+        <label>Text Length:</label><br>
+        <input type="number" name="length" min="100" max="1000" value="{{ length }}"><br>
+
+        <button type="submit">Generate</button>
+    </form>
+
+    {% if generated %}
+    <h3>Generated Text:</h3>
+    <pre>{{ generated }}</pre>
+    {% endif %}
+</body>
+</html>
