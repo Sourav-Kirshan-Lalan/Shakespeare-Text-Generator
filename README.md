@@ -4,7 +4,7 @@ Generate Shakespeare-style text using an LSTM model trained on historical litera
 
 ## 🚀 Live Demo
 
-[🔗 View on Railway](https://your-app-name.up.railway.app)
+[🔗 View on Railway](https://shakespeare-text-generator.up.railway.app/)
 
 
 ## 💡 Features
