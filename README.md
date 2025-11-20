@@ -52,7 +52,7 @@ to be or not to be that is the night when virtue walks in fair disguise and prin
 
 ---
 
-## 🐳 Deployment on Azure
+##  Deployment on Azure
 
 This application is containerized using Docker and deployed on **Azure Container Instances** for scalable and reliable hosting.
 
