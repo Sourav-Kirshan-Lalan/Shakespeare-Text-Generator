@@ -20,7 +20,7 @@ Generate Shakespeare-style text using an LSTM model trained on historical litera
 
 ## Technologies Used
 
-* **Python **
+* **Python**
 * **Flask** – Web framework
 * **TensorFlow / Keras** – Deep learning
 * **HTML + CSS** – Frontend
